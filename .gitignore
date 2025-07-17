@@ -1,0 +1,344 @@
+# =============================================================================
+# Quick Commerce Deals Project - .gitignore
+# =============================================================================
+
+# Python
+# -----------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+*.manifest
+*.spec
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Virtual Environments
+# -----------------------------------------------------------------------------
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+.env/
+pyvenv.cfg
+
+# Environment Variables & Configuration
+# -----------------------------------------------------------------------------
+.env
+.env.*
+!.env.example
+.env.local
+.env.production
+.env.development
+.env.staging
+.env.test
+config.ini
+config.json
+secrets.json
+*.key
+*.pem
+*.crt
+
+# Database Files
+# -----------------------------------------------------------------------------
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.db-shm
+*.db-wal
+quick_commerce_deals.db*
+database.db*
+test.db*
+dev.db*
+
+# PostgreSQL
+postgresql/
+pgdata/
+postgres-data/
+
+# Redis
+# -----------------------------------------------------------------------------
+dump.rdb
+*.rdb
+redis-data/
+
+# Logs & Monitoring
+# -----------------------------------------------------------------------------
+*.log
+logs/
+log/
+*.log.*
+app.log*
+error.log*
+access.log*
+api_access.log*
+monitoring.log*
+
+# Cache & Temporary Files
+# -----------------------------------------------------------------------------
+.cache/
+cache/
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Embeddings & ML Models
+# -----------------------------------------------------------------------------
+cache/embeddings/
+embeddings/
+*.pkl
+*.pickle
+*.joblib
+*.model
+models/
+checkpoints/
+*.h5
+*.hdf5
+
+# API Keys & Secrets
+# -----------------------------------------------------------------------------
+*api_key*
+*secret*
+*token*
+*password*
+credentials.json
+service-account*.json
+google-credentials*.json
+openai-key*
+gemini-key*
+nomic-key*
+
+# IDE & Editor Files
+# -----------------------------------------------------------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# OS Generated Files
+# -----------------------------------------------------------------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Docker
+# -----------------------------------------------------------------------------
+.dockerignore
+docker-compose.override.yml
+.docker/
+Dockerfile.local
+
+# Frontend (Node.js/React/Vue)
+# -----------------------------------------------------------------------------
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.next/
+frontend/out/
+frontend/.nuxt/
+frontend/.vuepress/dist/
+frontend/.serverless/
+frontend/.fusebox/
+frontend/.dynamodb/
+frontend/.tern-port
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/lerna-debug.log*
+frontend/.pnpm-debug.log*
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# Streamlit
+# -----------------------------------------------------------------------------
+.streamlit/
+streamlit_app/.streamlit/
+*.streamlit
+
+# Jupyter Notebooks
+# -----------------------------------------------------------------------------
+.ipynb_checkpoints
+*.ipynb
+notebooks/
+jupyter/
+
+# Testing
+# -----------------------------------------------------------------------------
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+test-results/
+test-reports/
+coverage-reports/
+*.cover
+*.py,cover
+
+# Documentation
+# -----------------------------------------------------------------------------
+docs/_build/
+docs/build/
+site/
+.mkdocs.yml.bak
+
+# Backup Files
+# -----------------------------------------------------------------------------
+*.bak
+*.backup
+*.old
+*.orig
+*~
+.#*
+#*#
+
+# Compiled Files
+# -----------------------------------------------------------------------------
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Archives
+# -----------------------------------------------------------------------------
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Project Specific
+# -----------------------------------------------------------------------------
+# Sample data files (keep structure, ignore data)
+sample_data/
+test_data/
+dummy_data/
+mock_data/
+
+# Query accuracy reports (generated files)
+query_accuracy_report*.json
+performance_report*.json
+benchmark_results*.json
+
+# Generated documentation
+API_DOCUMENTATION_GENERATED.md
+FLOW_GENERATED.md
+
+# Development databases
+dev_*.db
+test_*.db
+local_*.db
+
+# Monitoring & Analytics
+monitoring_data/
+analytics_data/
+metrics/
+
+# Temporary development files
+scratch/
+playground/
+experiments/
+prototypes/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Local configuration overrides
+local_settings.py
+local_config.json
+dev_config.json
+
+# IDE specific project files
+.vscode/settings.json
+.vscode/launch.json
+.idea/workspace.xml
+.idea/tasks.xml
+
+# macOS specific
+.AppleDouble
+.LSOverride
+Icon
+
+# Windows specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux specific
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+
+# =============================================================================
+# End of .gitignore
+# =============================================================================
